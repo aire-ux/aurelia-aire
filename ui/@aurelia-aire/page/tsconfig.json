@@ -16,7 +16,9 @@
     "outDir": "build"
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
+    "src/index.html",
+    "src/index.scss"
   ],
   "exclude": ["node_modules"]
 
