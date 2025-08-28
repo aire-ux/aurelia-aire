@@ -19,6 +19,7 @@
     "@aurelia-aire/button": "file:../../../ui/@aurelia-aire/button",
     "@aurelia-aire/footer": "file:../../../ui/@aurelia-aire/footer",
     "@aurelia-aire/header": "file:../../../ui/@aurelia-aire/header",
+    "@aurelia-aire/image": "^0.0.0",
     "@aurelia-aire/page": "file:../../../ui/@aurelia-aire/page",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",

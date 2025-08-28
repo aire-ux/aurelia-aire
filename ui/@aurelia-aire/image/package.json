@@ -1,0 +1,28 @@
+{
+  "name": "@aurelia-aire/image",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "tsc --watch || vite build --watch"
+  },
+  "devDependencies": {
+    "@aurelia/vite-plugin": "^2.0.0-beta.25",
+    "sass-embedded": "^1.91.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vite-plugin-node-polyfills": "^0.24.0",
+    "vite-plugin-sass": "^0.1.0",
+    "vite-string-plugin": "^1.4.6"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "aurelia": "^2.0.0-beta.25",
+    "tailwindcss": "^4.1.12"
+  }
+}
