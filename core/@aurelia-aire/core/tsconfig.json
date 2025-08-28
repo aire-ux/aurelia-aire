@@ -1,0 +1,15 @@
+{
+  "extends": "../../../tsconfig.json",
+
+  "compilerOptions": {
+    "paths": {
+      "@aurelia-aire/core/*": [
+        "core/@aurelia-aire/core/*",
+        "core/@aurelia-aire/core/src/*"
+      ],
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

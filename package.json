@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "ui/*",
+    "core/@aurelia-aire/core"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "lerna": "^8.2.3",
+    "vite": "^7.1.3"
+  }
+}
