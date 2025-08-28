@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-aire/core",
   "private": false,
-  "version": "0.0.3",
+  "version": "0.1.0-alpha.0+f7737d0",
   "type": "module",
   "main": "src/main.js",
   "types": "src/main.d.ts",
@@ -22,5 +22,5 @@
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
   },
-  "gitHead": "2a7555c9dfbd8c2762d93f55ee5ad8de79e5cbaa"
+  "gitHead": "f7737d076dfcf9567e21076a914134fd5e554eca"
 }
