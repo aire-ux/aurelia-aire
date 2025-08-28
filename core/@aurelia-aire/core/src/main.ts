@@ -1,5 +1,4 @@
 import '@aurelia-aire/core/style.css'
-import { setupCounter } from "@aurelia-aire/core/counter";
 // import viteLogo from '@aurelia-aire/core/vite.svg'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -18,4 +17,3 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)

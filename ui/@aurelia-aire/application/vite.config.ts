@@ -1,9 +1,7 @@
 import {resolve} from 'path'
 import {defineConfig} from "vite";
 import aurelia from '@aurelia/vite-plugin'
-// import {vitePluginSass} from 'vite-plugin-sass'
 import {nodePolyfills} from "vite-plugin-node-polyfills";
-import tailwindcss from "@tailwindcss/vite";
 
 
 export default ({mode}) => {
@@ -12,7 +10,7 @@ export default ({mode}) => {
         resolve: {
             alias: [
                 {
-                    find: "@aurelia-aire/button",
+                    find: "@aurelia-aire/application",
                     replacement: resolve(__dirname, './src')
                 }
             ]
@@ -20,9 +18,7 @@ export default ({mode}) => {
         assetsInclude: ["**/*.html"],
         plugins: [
             aurelia({useDev: true}),
-            nodePolyfills(),
-            // vitePluginSass(),
-            tailwindcss()
+            nodePolyfills()
         ]
     })
 
