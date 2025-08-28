@@ -1,8 +1,8 @@
 
 {
   "compilerOptions": {
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "skipLibCheck": true,
     "target": "ES2017",
     "esModuleInterop": true,

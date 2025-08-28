@@ -1,6 +1,10 @@
 import {resolve} from 'path'
 import {defineConfig} from "vite";
-import {fileURLToPath, URL} from 'node:url'
+import aurelia from '@aurelia/vite-plugin'
+import {vitePluginSass} from 'vite-plugin-sass'
+import {nodePolyfills} from "vite-plugin-node-polyfills";
+import tailwindcss from "@tailwindcss/vite";
+
 
 export default ({mode}) => {
 
@@ -12,7 +16,14 @@ export default ({mode}) => {
                     replacement: resolve(__dirname, './src')
                 }
             ]
-        }
+        },
+        assetsInclude: ["**/*.html"],
+        plugins: [
+            aurelia({useDev: true}),
+            nodePolyfills(),
+            vitePluginSass(),
+            tailwindcss()
+        ]
     })
 
 }

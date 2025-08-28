@@ -2,6 +2,10 @@
   "extends": "../../../tsconfig.json",
 
   "compilerOptions": {
+    "types": [
+      "vite-string-plugin/types",
+      "./@types/index.d.ts"
+    ],
     "paths": {
       "@aurelia-aire/button/*": [
         "ui/@aurelia-aire/button/*",
@@ -11,6 +15,7 @@
   },
   "include": [
     "src/**/*"
-  ]
+  ],
+  "exclude": ["node_modules"]
 
 }

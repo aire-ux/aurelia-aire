@@ -6,13 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite --mode development",
+    "watch": "tsc && vite build --watch"
   },
   "devDependencies": {
     "typescript": "~5.8.3",
     "vite": "^7.1.2"
   },
   "dependencies": {
-    "@aurelia-aire/button": "*"
+    "@aurelia-aire/button": "file:../../../ui/@aurelia-aire/button",
+    "@tailwindcss/vite": "^4.1.12",
+    "aurelia": "^2.0.0-beta.25",
+    "tailwindcss": "^4.1.12"
   }
 }

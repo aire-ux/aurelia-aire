@@ -11,7 +11,6 @@ export default ({mode}) => {
                     find: "@aurelia-aire/core",
                     replacement: resolve(__dirname, './src')
                 }
-
             ]
         }
     })
