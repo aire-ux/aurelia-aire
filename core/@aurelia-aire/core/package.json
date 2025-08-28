@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-aire/core",
   "private": false,
-  "version": "0.1.0-alpha.1+a2d615b",
+  "version": "0.0.4",
   "type": "module",
   "main": "src/main.js",
   "types": "src/main.d.ts",
