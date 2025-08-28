@@ -11,7 +11,9 @@
         "ui/@aurelia-aire/page/*",
         "ui/@aurelia-aire/page/src/*"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "outDir": "build"
   },
   "include": [
     "src/**/*"
