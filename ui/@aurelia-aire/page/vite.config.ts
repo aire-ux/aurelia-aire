@@ -2,6 +2,8 @@ import {resolve} from 'path'
 import {defineConfig} from "vite";
 import aurelia from '@aurelia/vite-plugin'
 import {nodePolyfills} from "vite-plugin-node-polyfills";
+import {vitePluginSass} from 'vite-plugin-sass'
+import tailwindcss from "@tailwindcss/vite";
 
 
 export default ({mode}) => {
@@ -18,7 +20,8 @@ export default ({mode}) => {
         assetsInclude: ["**/*.html"],
         plugins: [
             aurelia({useDev: true}),
-            nodePolyfills()
+            nodePolyfills(),
+            vitePluginSass()
         ]
     })
 

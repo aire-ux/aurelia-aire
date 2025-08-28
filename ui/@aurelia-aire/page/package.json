@@ -1,5 +1,5 @@
 {
-  "name": "@aurelia-aire/aire-page",
+  "name": "@aurelia-aire/page",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -22,6 +22,7 @@
     "vite-string-plugin": "^1.4.6"
   },
   "dependencies": {
+    "@aurelia-aire/core": "file:../../../core/@aurelia-aire/core",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"

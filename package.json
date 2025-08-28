@@ -3,7 +3,7 @@
   "private": true,
   "workspaces": [
     "ui/@aurelia-aire/button",
-    "ui/@aurelia-aire/application",
+    "ui/@aurelia-aire/page",
     "core/@aurelia-aire/core",
     "site/aurelia-aire/aurelia-aire-site"
   ],

@@ -7,10 +7,13 @@
         "core/@aurelia-aire/core/*",
         "core/@aurelia-aire/core/src/*"
       ],
+      "@aurelia-aire/core/styles/*": [
+        "core/@aurelia-aire/core/styles/*",
+      ]
     }
   },
   "exclude": ["node_modules"],
   "include": [
-    "src/**/*"
+    "src/**/*", "styles/**/*"
   ]
 }

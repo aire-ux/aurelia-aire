@@ -12,10 +12,12 @@
   },
   "devDependencies": {
     "typescript": "~5.8.3",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "vite-plugin-sass": "^0.1.0"
   },
   "dependencies": {
     "@aurelia-aire/button": "file:../../../ui/@aurelia-aire/button",
+    "@aurelia-aire/page": "file:../../../ui/@aurelia-aire/page",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"

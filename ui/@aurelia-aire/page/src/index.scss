@@ -1,4 +1,8 @@
+@import "@aurelia-aire/core/styles/core.scss";
 
-button.au-button {
 
+aire-page {
+  main {
+    @include full-page;
+  }
 }
