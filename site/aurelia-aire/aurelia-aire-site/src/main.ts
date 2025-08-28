@@ -4,6 +4,8 @@ import {
 import Aurelia from "aurelia";
 import {AireSite} from "./aire-site";
 import {register as registerPage} from '@aurelia-aire/page'
+import {register as registerFooter} from '@aurelia-aire/footer'
+import {register as registerHeader} from '@aurelia-aire/header'
 
 import "@aurelia-aire/core/styles/core.scss";
 import "tailwindcss"
@@ -11,6 +13,8 @@ import "./style.scss"
 
 let aurelia = new Aurelia();
 registerPage(aurelia)
+registerFooter(aurelia)
+registerHeader(aurelia)
 
 aurelia
     .register(AireButton)

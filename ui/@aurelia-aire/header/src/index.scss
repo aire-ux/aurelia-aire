@@ -1,0 +1,8 @@
+@import "@aurelia-aire/core/styles/core.scss";
+
+
+aire-page {
+  main {
+    @include full-page;
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "extends": "../../../tsconfig.json",
+
+  "compilerOptions": {
+    "types": [
+      "vite-string-plugin/types",
+      "./@types/index.d.ts"
+    ],
+    "paths": {
+      "@aurelia-aire/page/*": [
+        "ui/@aurelia-aire/header/*",
+        "ui/@aurelia-aire/header/src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules"]
+
+}

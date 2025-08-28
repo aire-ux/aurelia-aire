@@ -7,6 +7,10 @@
   height: 100%;
 }
 
+aire-* {
+  display: contents;
+}
+
 html, body {
   box-sizing: border-box;
   @include full-page;

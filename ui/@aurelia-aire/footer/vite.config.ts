@@ -11,7 +11,7 @@ export default ({mode}) => {
         resolve: {
             alias: [
                 {
-                    find: "@aurelia-aire/page",
+                    find: "@aurelia-aire/footer",
                     replacement: resolve(__dirname, './src')
                 }
             ]
