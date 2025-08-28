@@ -21,9 +21,10 @@
     "vite-string-plugin": "^1.4.6"
   },
   "dependencies": {
-    "@aurelia-aire/core": "file:../../../core/@aurelia-aire/core",
+    "@aurelia-aire/core": "^0.0.2",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
-  }
+  },
+  "gitHead": "67727b06e4e79e8cf4847935a124019c53400ade"
 }

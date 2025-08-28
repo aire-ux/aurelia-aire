@@ -24,5 +24,6 @@
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
-  }
+  },
+  "gitHead": "67727b06e4e79e8cf4847935a124019c53400ade"
 }

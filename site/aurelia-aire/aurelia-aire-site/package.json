@@ -16,13 +16,14 @@
     "vite-plugin-sass": "^0.1.0"
   },
   "dependencies": {
-    "@aurelia-aire/button": "file:../../../ui/@aurelia-aire/button",
-    "@aurelia-aire/footer": "file:../../../ui/@aurelia-aire/footer",
-    "@aurelia-aire/header": "file:../../../ui/@aurelia-aire/header",
+    "@aurelia-aire/button": "^0.0.2",
+    "@aurelia-aire/footer": "^0.0.2",
+    "@aurelia-aire/header": "^0.0.2",
     "@aurelia-aire/image": "^0.0.2",
-    "@aurelia-aire/page": "file:../../../ui/@aurelia-aire/page",
+    "@aurelia-aire/page": "^0.0.2",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
-  }
+  },
+  "gitHead": "67727b06e4e79e8cf4847935a124019c53400ade"
 }
