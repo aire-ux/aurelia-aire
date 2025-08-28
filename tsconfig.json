@@ -10,7 +10,9 @@
     "importHelpers": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "rootDir": "./"
+    "rootDir": "./",
+    "declaration": true
   },
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
 

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "packages": [
     "core/@aurelia-aire/*",
-    "ui/*"
+    "ui/@aurelia-aire/*",
+    "site/aurelia-aire/*"
   ]
 }

@@ -3,7 +3,8 @@
   "private": true,
   "workspaces": [
     "ui/*",
-    "core/@aurelia-aire/core"
+    "core/@aurelia-aire/core",
+    "site/aurelia-aire/aurelia-aire-site"
   ],
   "devDependencies": {
     "@types/node": "^24.3.0",

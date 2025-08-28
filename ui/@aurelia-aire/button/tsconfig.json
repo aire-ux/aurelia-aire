@@ -1,0 +1,16 @@
+{
+  "extends": "../../../tsconfig.json",
+
+  "compilerOptions": {
+    "paths": {
+      "@aurelia-aire/button/*": [
+        "ui/@aurelia-aire/button/*",
+        "ui/@aurelia-aire/button/src/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ]
+
+}
