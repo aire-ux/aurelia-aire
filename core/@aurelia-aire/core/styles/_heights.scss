@@ -1,0 +1,9 @@
+@for $h from 0 to 20 {
+  .h-#{$h} {
+    height: #{$h * 8 + 8}px;
+  }
+}
+
+.h-100 {
+  height: 100%;
+}

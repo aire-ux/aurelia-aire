@@ -8,9 +8,6 @@ import "@aurelia-aire/core/styles/core.scss"
 export class AireFooter implements HasRows, HasColumns {
 
     @bindable
-    variants: string
-
-    @bindable
     classes: string
 
 

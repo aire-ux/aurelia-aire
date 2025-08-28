@@ -12,5 +12,16 @@ npm run watch \
   --workspace @aurelia-aire/page \
   --workspace @aurelia-aire/footer \
   --workspace @aurelia-aire/header
-
 ```
+
+### aire.sh
+`aire` is a simple script to run many common commands
+
+#### Commands
+
+###### aire develop all
+*Description*
+This command watches all of the components and starts a development server
+
+*Usage*
+`./aire develop all`

@@ -1,8 +1,12 @@
 @import "@aurelia-aire/core/styles/core.scss";
 
 
-aire-page {
-  main {
-    @include full-page;
+aire-footer {
+  display: contents;
+  footer {
+    border: 1px solid red;
+    width:100%;
+    bottom: 0;
+    position: fixed;
   }
 }

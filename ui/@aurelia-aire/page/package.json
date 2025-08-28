@@ -9,8 +9,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "start": "vite --mode development",
-    "watch": "tsc --watch || vite build --watch"
+    "start": "tsc --watch || vite build --watch"
   },
   "devDependencies": {
     "@aurelia/vite-plugin": "^2.0.0-beta.25",

@@ -1,0 +1,9 @@
+@for $w from 0 to 20 {
+  .w-#{$w} {
+    width: #{$w * 8 + 8}px;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}

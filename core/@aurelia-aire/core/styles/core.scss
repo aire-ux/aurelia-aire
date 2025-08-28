@@ -1,6 +1,7 @@
 //@use "tailwindcss";
 //@custom-variant dark (&:where(.dark, .dark *));
 
+@import "heights";
 
 @mixin full-page {
   width: 100%;
@@ -31,5 +32,14 @@ html, body {
 
 .row {
   flex-direction: row;
+}
+
+
+.fixed {
+  position: fixed;
+}
+
+.bottom {
+
 }
 

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+
+set -e
+declare -A modules
+load.module() {
+  local module="$1"
+  local requested_module="$2"
+  local command="${3:-main}"
+  local module_name="$(basename "$module")"
+  if [[ "$module_name" == "$requested_module" ]]; then
+    source "$module/main.sh"
+    local main_function="$module_name.$command"
+    $main_function "${@:4}"
+  fi
+}
+construct.environment() {
+  export project_base="$(pwd)"
+  export dev_base="$(pwd)/scripts/dev"
+}
+
+construct.environment
+find ./scripts/dev -maxdepth 1 -type d -print0 \
+| while IFS= read -r -d $'\0' module;
+  do  load.module "$module" "$@";
+done
