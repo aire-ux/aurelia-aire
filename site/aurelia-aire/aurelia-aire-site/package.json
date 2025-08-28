@@ -1,7 +1,7 @@
 {
   "name": "aurelia-aire-site",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -19,7 +19,7 @@
     "@aurelia-aire/button": "file:../../../ui/@aurelia-aire/button",
     "@aurelia-aire/footer": "file:../../../ui/@aurelia-aire/footer",
     "@aurelia-aire/header": "file:../../../ui/@aurelia-aire/header",
-    "@aurelia-aire/image": "^0.0.0",
+    "@aurelia-aire/image": "^0.0.1",
     "@aurelia-aire/page": "file:../../../ui/@aurelia-aire/page",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
