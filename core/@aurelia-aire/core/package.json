@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-aire/core",
   "private": false,
-  "version": "0.1.0-alpha.0+f7737d0",
+  "version": "0.1.0-alpha.1+a2d615b",
   "type": "module",
   "main": "src/main.js",
   "types": "src/main.d.ts",
@@ -22,5 +22,9 @@
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
   },
-  "gitHead": "f7737d076dfcf9567e21076a914134fd5e554eca"
+  "gitHead": "a2d615b2067ab3113fbbc376e9e311f2084d67ec",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
