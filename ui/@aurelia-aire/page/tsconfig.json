@@ -7,9 +7,9 @@
       "./@types/index.d.ts"
     ],
     "paths": {
-      "@aurelia-aire/application/*": [
-        "ui/@aurelia-aire/application/*",
-        "ui/@aurelia-aire/application/src/*"
+      "@aurelia-aire/page/*": [
+        "ui/@aurelia-aire/page/*",
+        "ui/@aurelia-aire/page/src/*"
       ]
     }
   },
