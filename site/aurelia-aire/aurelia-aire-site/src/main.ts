@@ -18,7 +18,6 @@ registerFooter(aurelia)
 registerHeader(aurelia)
 registerImage(aurelia)
 
-
 aurelia
     .register(AireButton)
     .app({
