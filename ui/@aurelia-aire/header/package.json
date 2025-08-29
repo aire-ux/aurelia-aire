@@ -1,7 +1,7 @@
 {
   "name": "@aurelia-aire/header",
   "private": false,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -21,7 +21,7 @@
     "vite-string-plugin": "^1.4.6"
   },
   "dependencies": {
-    "@aurelia-aire/core": "^0.0.7",
+    "@aurelia-aire/core": "^0.0.8",
     "@tailwindcss/vite": "^4.1.12",
     "aurelia": "^2.0.0-beta.25",
     "tailwindcss": "^4.1.12"
