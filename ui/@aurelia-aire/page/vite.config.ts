@@ -8,6 +8,23 @@ import vitePluginSass from 'vite-plugin-sass'
 export default ({mode}) => {
 
     return defineConfig({
+        build: {
+            lib: {
+                entry: ["src/index.ts"],
+                name: '@aurelia-aire/page',
+                // fileName: (fmt, entry) => `page`,
+                fileName: 'page',
+                cssFileName: "index"
+            },
+            rollupOptions: {
+                external: ['aurelia'],
+                output: {
+                    globals: {
+                        aurelia: 'Aurelia'
+                    }
+                }
+            }
+        },
         resolve: {
             alias: [
                 {
@@ -19,8 +36,8 @@ export default ({mode}) => {
         assetsInclude: ["**/*.html"],
         plugins: [
             aurelia({useDev: true}),
-            nodePolyfills(),
-            vitePluginSass()
+            nodePolyfills()
+            // vitePluginSass()
         ]
     })
 

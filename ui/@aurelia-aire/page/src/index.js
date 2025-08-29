@@ -19,6 +19,7 @@ let AirePage = (() => {
             this.variants = __runInitializers(this, _variants_initializers, void 0);
             this.classes = (__runInitializers(this, _variants_extraInitializers), __runInitializers(this, _classes_initializers, void 0));
             __runInitializers(this, _classes_extraInitializers);
+            console.log("SUP");
         }
     };
     __setFunctionName(_classThis, "AirePage");

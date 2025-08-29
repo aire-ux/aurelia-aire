@@ -16,6 +16,7 @@ export class AirePage implements HasRows, HasColumns {
 
 
     constructor() {
+        console.log("SUP")
     }
 
 }
