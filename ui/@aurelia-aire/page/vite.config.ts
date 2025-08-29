@@ -9,16 +9,21 @@ export default ({mode}) => {
 
     return defineConfig({
         build: {
+            assetsInlineLimit: 16384,
+            target: 'esnext',
+            minify: false,
             lib: {
                 entry: ["src/index.ts"],
                 name: '@aurelia-aire/page',
                 // fileName: (fmt, entry) => `page`,
                 fileName: 'page',
-                cssFileName: "index"
+                cssFileName: "index",
+                formats: ['es'],
             },
             rollupOptions: {
-                external: ['aurelia'],
+                external: ['aurelia', 'tailwindcss', '@aurelia-aire/core', '@tailwindcss/vite'],
                 output: {
+                    format: 'es',
                     globals: {
                         aurelia: 'Aurelia'
                     }

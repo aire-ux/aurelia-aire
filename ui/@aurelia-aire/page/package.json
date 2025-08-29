@@ -7,7 +7,7 @@
   "types": "./src/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "start": "tsc --watch || vite build --watch"
   },
